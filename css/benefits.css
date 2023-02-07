@@ -1,0 +1,56 @@
+:root {
+    --bg: #95989A;
+    --text-color: #EB1CCC;
+    --text-color-primary: #FFF;
+    --text-color-secondary: #000;
+    --text-color-tertiary: #5D5D5D;
+}
+
+#benefitsContainer h2 {
+    background-color: var(--text-color-tertiary);
+    padding: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-color-tertiary);
+}
+
+.benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+#benefit1 {
+    background: url("../img/sqr-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#benefit2 {
+    background: url("../img/sqr-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#benefit3 {
+    background: url("../img/sqr-3.jpg");
+    background-size: cover;
+    background-position: center;
+}

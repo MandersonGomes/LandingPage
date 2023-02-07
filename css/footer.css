@@ -1,0 +1,30 @@
+:root {
+    --bg: #95989A;
+    --text-color: #EB1CCC;
+    --text-color-primary: #FFF;
+    --text-color-secondary: #000;
+    --text-color-tertiary: #5D5D5D;
+}
+
+#footer {
+    height: 250px;
+    text-align: center;
+    color: var(--text-color-tertiary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#footer p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+#footer span {
+    font-weight: bold;
+}

@@ -1,0 +1,52 @@
+:root {
+    --bg: #95989A;
+    --text-color: #EB1CCC;
+    --text-color-primary: #FFF;
+    --text-color-secondary: #000;
+    --text-color-tertiary: #5D5D5D;
+}
+
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detail img {
+    width: 50%;
+}
+
+.detail h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+#detail-1 h3 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.detailDescription {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.detailDescription ul {
+    list-style-position: inside;
+}
+
+.detailDescription ul li {
+    margin-bottom: 0.4em;
+}
+
+.detailDescription ul li:last-child {
+    font-weight: bold;
+}
